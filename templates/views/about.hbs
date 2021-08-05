@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{!-- header links partial --}}
+  {{>headerlinks}}
+</head>
+
+<body>
+  {{!-- navbar partial --}}
+
+  {{>navbar}}
+
+
+  <!-- main header -->
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+            <div class="col-md-6 col-12 right_main_header align-items-center">
+              <figure>
+                  <img src="images/aboutimg.gif" class="img-fluid" alt="shashank" title="Shashank Tyagi">
+              </figure>
+            </div>
+          {{!-- <!-- left main header --> (here it is acting as a right header) --}}
+          <div class="col-md-6 col-12 left_main_header">
+            <p>Welcome to weather app</p>
+            <h1>I Am A <span class="text_clr"> Web Developer </span> and C++ Programmer.</h1>
+            <a href="https://tyagishashank1.github.io/iCoder-Bootstrap/" target="_blank"><button>About me</button></a>
+          </div>
+          
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+  
+       {{!-- footer partial --}}
+
+        {{>footer}}
+
+
+</body>
+
+</html>

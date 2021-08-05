@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{!-- header links partial --}}
+  {{>headerlinks}}
+</head>
+
+<body>
+  {{!-- navbar partial --}}
+
+  {{>navbar}}
+
+
+  <!-- main header -->
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+            <div class="col-md-12 col-12 left_main_header align-items-center">
+              <figure>
+                  <img src="images/404.webp" class="errorimg img-fluid" alt="Error 404" title="404 Error">
+              </figure>
+              <div class="errorinfo">
+            <p>Welcome to weather app</p>
+            <h1>{{errormessage}} </h1>
+            <a href="/"><button>Go Back</button></a>
+            </div>
+          </div>
+         
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+  
+       {{!-- footer partial --}}
+
+        {{>footer}}
+
+
+</body>
+
+</html>
